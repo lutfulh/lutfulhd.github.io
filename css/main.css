@@ -1,0 +1,78 @@
+ @import url('https://fonts.googleapis.com/css?family=Federo');
+ 
+ body {
+	font-family: 'Federo', sans-serif;
+	overflow-x: hidden;
+}
+ 
+#diff-font {
+  font-family: 'Courier New', Courier, monospace;
+}
+ 
+ .navbar{
+ background:#5D6D7E;
+
+}
+.nav-link {
+ color: #ffffff;
+ cursor: pointer;
+ margin-right: 1em !important;
+ 
+ font-size: 18px;
+ font-weight: 700;
+ padding-top: 0px;
+}
+
+.navbar-brand{
+  font-size:35px;
+  
+  color: #555
+ }
+
+.nav-link:hover{
+ 
+ color: burlywood;
+
+ .navbar-collapse {
+ justify-content: flex-start;
+}
+/* .navbar-toggler{
+  background:#fff !important; */
+}
+/*Portfolio*/
+.portfolio{
+	margin: 4em 0;
+    position: relative;
+}
+.portfolio h1{
+	color:#F97300;
+	margin: 2em;
+}
+.portfolio img{
+	 height: 15rem;
+	 width: 100%;
+	 margin: 1em;
+}
+
+
+/* footer */
+
+a > i{
+  padding-right: 10px;
+}
+
+.cpright {
+  background-color: #32393E;
+  padding: 20px;
+  color: #C6C6C6;
+}
+.headspace {
+  margin-bottom: 20px;
+}
+
+.btn-secondary{
+
+  background-color: #eee;
+  color: #333;
+  border-color: #333;
+}
